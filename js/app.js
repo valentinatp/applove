@@ -26,7 +26,7 @@
 	});
 })()
 
-function cosita(){
+function mostrarImagenes(){
 	var fotos = Array.from(document.getElementsByClassName("col-4"));
 	var cont = document.getElementById("contenedor");
 	var caja, close, icon;
@@ -56,4 +56,4 @@ function cosita(){
 			});
 		});
 }
-cosita()
+mostrarImagenes()
