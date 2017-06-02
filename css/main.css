@@ -101,6 +101,11 @@ header {
   display: inline-block;
   width: 30%;
   margin-top: 63px;
+  cursor: pointer;
+}
+
+.box-services:hover {
+  background-color: rgba(255,255,255,0.2);
 }
 
 .text-services {
@@ -114,4 +119,92 @@ footer {
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+}
+
+#box-services-modal {
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5, #box-services-modal .modal-body h6 {
+  color: whitesmoke;
+} 
+
+#box-services-modal .modal-body h5 {
+  font-size: 2em;
+}
+
+#box-services-modal .modal-body h6 {
+  font-size: 1em;
+}
+
+#box-services-modal .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60%;
+}
+
+.hide {
+  display: none;
+}
+
+#imagen {
+  width: 50px;
+  background-position: center;
+}
+
+#work{
+  overflow: hidden;
+}
+
+#work img {
+  max-width: 100%;
+  height: auto;
+}
+
+#work h1, p {
+  text-align: center;
+  margin: 20px;
+}
+
+#contenedor {
+  background-color: rgba(236,233,239,0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#contenedor img{
+  margin: 40px;
+  max-width: 50%
+  height: auto;
+}
+
+#contenedor .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#contenedor .close img{
+  width: 20%;
 }
